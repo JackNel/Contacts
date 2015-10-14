@@ -15,4 +15,20 @@ public class Contact {
         this.name = name;  //"this.name" refers to the field above.  "= name" refers to the argument passed into the class constructor.
         this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
