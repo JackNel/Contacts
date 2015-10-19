@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * Created by Jack on 10/19/15.  Example of a nested for loop.
@@ -25,6 +26,12 @@ public class Exercise3 {
             }
         }//for loop
 
-        System.out.println();
+        double randNum = Math.random();
+        int index = (int) (randNum * 4);
+        System.out.println(names[index]);
+
+        Random rand = new Random();
+        index = rand.nextInt(4);
+        System.out.println(names[index]);
     }//main method
 }//class Exercise3
