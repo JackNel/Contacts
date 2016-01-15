@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -10,9 +12,11 @@ public class Exercise5 {
 
         //Remove commas and periods
         s = s.replace(",", "").replace(".", "");
-        s = s.toLowerCase();
 
         //Make it all lowercase
+        s = s.toLowerCase();
+
+        //Convert to an array of words
         String[] words = s.split(" ");
 
         //Remove duplicate words

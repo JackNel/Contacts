@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -70,4 +72,4 @@ public class Exercise2 {
             }
         }
     }//static method sayHello
-}//class Exercise2
+}//class main.Exercise2

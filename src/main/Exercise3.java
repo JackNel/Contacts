@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
@@ -34,4 +36,4 @@ public class Exercise3 {
         index = rand.nextInt(4);
         System.out.println(names[index]);
     }//main method
-}//class Exercise3
+}//class main.Exercise3

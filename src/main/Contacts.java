@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -5,7 +7,7 @@ import java.util.HashMap;
 /**
  * Created by Jack on 10/13/15.
  */
-public class Contacts { //This will be a class that used the class Contact, this is a common naming convention
+public class Contacts { //This will be a class that used the class main.Contact, this is a common naming convention
     public static void main(String[] args) {
         Contact bob = new Contact("Bob", 30);
         Contact alice = new Contact("Alice", 20);
@@ -23,7 +25,7 @@ public class Contacts { //This will be a class that used the class Contact, this
         ArrayList<Contact> contactsUnderThirty = new ArrayList();
 
         Contact contactToFind = null;
-        for (Contact c : contacts) {  //"Contact c" creates a temporary variable.  contacts refers to the ArrayList named "contacts"
+        for (Contact c : contacts) {  //"main.Contact c" creates a temporary variable.  contacts refers to the ArrayList named "contacts"
             if (c.age < 30) {
                 contactsUnderThirty.add(c);
             }
@@ -41,7 +43,7 @@ public class Contacts { //This will be a class that used the class Contact, this
         if (contactToFind == null) {
             System.out.println("Couldn't find contact.");
         } else {
-            System.out.println("Found Contact!");
+            System.out.println("Found main.Contact!");
         }
     }
 }

@@ -1,3 +1,5 @@
+package main;
+
 import jodd.json.JsonParser;
 import jodd.json.JsonSerializer;
 

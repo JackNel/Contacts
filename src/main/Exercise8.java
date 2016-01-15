@@ -1,3 +1,5 @@
+package main;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -12,6 +14,7 @@ public class Exercise8 {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<String> names = new ArrayList();
         Scanner scanner = new Scanner(new File("people.csv"));
+
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             //Split line into array of columns
