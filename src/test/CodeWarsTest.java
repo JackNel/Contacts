@@ -1,4 +1,4 @@
-import main.CodeWars;
+import main.codewars.CodeWars;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
